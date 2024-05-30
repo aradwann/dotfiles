@@ -1,5 +1,2 @@
-import = [
-    "~/.config/alacritty/themes/one_dark.toml"
-]
 [window]
 startup_mode="Fullscreen"
