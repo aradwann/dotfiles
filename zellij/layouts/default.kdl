@@ -1,0 +1,18 @@
+layout {
+    tab_template name="tab_temp"{
+        pane size=1  borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+    children
+    }
+    tab_temp name="editor" focus=true split_direction="vertical"{
+        pane command="hx" {
+            args "."
+        }
+        pane size="25%"
+    } 
+    tab_temp name="git"{
+        pane command="gitui"
+    } 
+    tab_temp name="terminal" 
+}
