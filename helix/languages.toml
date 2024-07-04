@@ -10,3 +10,7 @@ args = ["up", "--method", "stdio"]
 [[language]]
 name = "sql"
 language-servers = [ "sql-language-server" ]
+
+[language-sever.rust-analyzer]
+# Enable all inlay hints
+inlayHints.enable = true
