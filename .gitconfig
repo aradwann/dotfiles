@@ -1,0 +1,41 @@
+[user]
+	name = Ahmed Radwan
+	email = aradwann@proton.me
+	signingkey = ~/.ssh/id_ed25519.pub
+[init]
+	defaultBranch = main
+[includeIf "gitdir:~/Documents/work/"]
+    	path = ~/.gitconfig-work
+[credential]
+	helper = store
+[pull]
+	ff = only
+	rebase = true
+[core]
+	autocrlf = false
+	filemode = false
+	symlinks = true
+	pager = delta
+	editor = hx
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --oneline --graph --decorate --all
+[help]
+	autocorrect = 1
+[push]
+	default = current
+[gpg]
+	format = ssh
