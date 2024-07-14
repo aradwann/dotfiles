@@ -1,6 +1,15 @@
 [window]
-startup_mode = "Fullscreen"
-opacity = 0.8
+startup_mode = "Maximized"
+opacity = 0.95
+blur = true
+decorations = "none"
 
 [font]
 size = 10.6
+
+[colors]
+transparent_background_colors = true
+draw_bold_text_with_bright_colors = true
+[colors.primary]
+foreground = "#ffffff"  # White text
+# dim_foreground = "#e0e0e0"  # Lighter gray for dimmed text
