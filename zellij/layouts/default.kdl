@@ -9,10 +9,12 @@ layout {
         pane command="hx" {
             args "."
         }
-        pane size="25%"
     } 
     tab_temp name="git"{
         pane command="gitui"
     } 
-    tab_temp name="terminal" 
+    tab_temp name="terminal" split_direction="vertical"{
+        pane
+        pane
+    } 
 }
