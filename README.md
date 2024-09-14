@@ -19,7 +19,7 @@ setup.sh               # Setup script to initialize and link configurations
 ```
 ## Usage
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+git clone https://github.com/aradwann/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./setup.sh
 ```
