@@ -15,7 +15,6 @@ end
 set -gx EDITOR hx
 
 # aliases
-alias dnf dnf5
-alias ur "sudo dnf5 upgrade --refresh -y"
-alias u "sudo dnf5 upgrade -y"
-alias i "sudo dnf5 install"
+alias ur "sudo dnf upgrade --refresh -y"
+alias u "sudo dnf upgrade -y"
+alias i "sudo dnf install"
