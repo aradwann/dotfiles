@@ -4,6 +4,7 @@ end
 # golang 
 set -gx GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
+set -gx GOPROXY https://proxy.golang.org,direct
 
 # pnpm
 set -gx PNPM_HOME "/home/aradwan/.local/share/pnpm"
