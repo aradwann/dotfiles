@@ -4,8 +4,6 @@
 	signingkey = ~/.ssh/id_ed25519.pub
 [init]
 	defaultBranch = main
-[includeIf "gitdir:~/Documents/work/"]
-    	path = ~/.gitconfig-work
 [credential]
 	helper = store
 [pull]
@@ -43,3 +41,5 @@
 	allowedSignersFile = ~/.ssh/allowed_signers
 [commit]
 	gpgsign = true
+[includeIf "gitdir:~/Documents/work/"]
+    	path = ~/.gitconfig-work
